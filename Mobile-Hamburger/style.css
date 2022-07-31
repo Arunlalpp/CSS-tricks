@@ -1,0 +1,17 @@
+#navigation {
+    display: none;
+}
+
+#navigation.opened {
+    display: block;
+}
+#hamburger
+{
+    color: aqua;
+    font-size: 4rem;
+}
+#navigation
+{
+    color: red;
+    font-size: 4rem;
+}
