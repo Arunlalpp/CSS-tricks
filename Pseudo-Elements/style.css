@@ -1,0 +1,19 @@
+.required::before{
+    content:'*';
+}
+label::after{
+    content:'Something else';
+}
+[data-tooltip]{
+    position: relative;
+}
+[data-tooltip]:hover::after{
+content: aftr(data-tooltip);
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+margin-top: 5px;
+padding: 5px;
+background-color: lightgray;
+}
