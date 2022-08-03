@@ -1,4 +1,4 @@
-## Shortcut for the div elements
+## Shortcut for the HTML elements
 
 ```a#hamburger-$.hamburger*4``` 
 
