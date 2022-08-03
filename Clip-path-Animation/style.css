@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: whitesmoke;
+}
+
+.card {
+    height: 40rem;
+    width: 42rem;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+img {
+    height: 35rem;
+    display: block;
+    margin: 2rem auto;
+    clip-path: polygon(0 0, 100% 10%,100% 90%, 10% 100%,0 0);
+    animation: clip 4s infinite;
+}
+@keyframes clip {
+    50% {
+        clip-path: polygon(0 10%, 100% 0, 90% 100%,0 90%,0 10%);
+    }
+}
+h2
+{
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    color: #1f3c5c;
+}
+span
+{
+    height: 3px;
+    width: 0%;
+    display: block;
+    background-color: #1f3c5c;
+    margin-left: 2rem;
+    transition: .4s;
+}
+.card:hover span{
+    width: 15%;
+}
