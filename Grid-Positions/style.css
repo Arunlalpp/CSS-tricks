@@ -58,7 +58,7 @@
     grid-area: img-box;
     grid-area: 2 / 3 / 5 / 4;
     background: orchid;
-    background: url('./women.jpg');
+    background: url('./img-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
