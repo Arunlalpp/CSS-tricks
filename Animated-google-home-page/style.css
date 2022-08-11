@@ -164,6 +164,23 @@ h1 {
     right: 5vw;
     opacity: .8;
 }
+.colon{
+    color: white;
+    animation: colon .8s linear infinite;
+    position: absolute;
+    left: 14vw;
+    transition: all;
+    transition-duration: 1000;
+}
+@keyframes colon {
+    0%{
+        display: none;
+    }
+    80%{
+        color: green;
+        display: block;
+    }
+}
 .grid{
     display: grid;
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px;
