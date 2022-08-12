@@ -44,7 +44,7 @@
 
 .btn2 {
     grid-area: btn2;
-    /* grid-area: 4 / 2 / 5 / 3; */
+    grid-area: 4 / 2 / 5 / 3;
     background: chartreuse;
 }
 
