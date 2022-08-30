@@ -33,10 +33,12 @@ body {
     background-image: conic-gradient(#ff00bb 0deg, #ff00bb 90deg, transparent 130deg, transparent 180deg, #4530ff 180deg, #4530ff 270deg, transparent 310deg, transparent 360deg);
     transition: 2s;
 }
-.card:hover::before{
-    transform: translate(-50%,-50%) rotate(-100deg );
+
+.card:hover::before {
+    transform: translate(-50%, -50%) rotate(-100deg);
 }
-.card::after{
+
+.card::after {
     content: "Border Animation";
     color: #ddd;
     position: absolute;
@@ -49,5 +51,5 @@ body {
     width: 192px;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
