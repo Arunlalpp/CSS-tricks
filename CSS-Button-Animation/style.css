@@ -30,7 +30,8 @@
 .bt-1:hover {
     box-shadow: inset 300px 0 0 0 #f9e506;
 }
-.bt-2{
+
+.bt-2 {
     width: 300px;
     height: 100px;
     border: none;
