@@ -37,4 +37,13 @@
     border: none;
     color: white;
     border-radius: 4px;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid #42fbf2;
+    position: relative;
+    z-index: 1;
+}
+.bt-2:hover{
+    color: #fff;
+    cursor: pointer;
 }
