@@ -43,25 +43,28 @@
     position: relative;
     z-index: 1;
 }
-.bt-2:hover{
+
+.bt-2:hover {
     color: #fff;
     cursor: pointer;
 }
-.bt-2::after{
+
+.bt-2::before {
     transition: 0.5s all ease;
     position: absolute;
     top: 0;
     left: 50%;
-    right:50%;
+    right: 50%;
     bottom: 0;
     opacity: 0;
     content: '';
     background-color: #42fbf2;
 }
-.bt-2:hover::after{
+
+.bt-2:hover::before {
     transition: 0.5s all ease;
     left: 0;
-    right:0;
+    right: 0;
     opacity: 1;
-    z-index: 1;
+    z-index: -1;
 }
