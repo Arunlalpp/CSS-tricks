@@ -62,7 +62,6 @@ p {
     bottom: 90px;
     background: black;
 }
-
 .card:hover p {
     opacity: 1;
     visibility: visible;
