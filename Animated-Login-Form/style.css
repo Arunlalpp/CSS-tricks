@@ -69,7 +69,8 @@ body {
 
 .form h2 {
     color: #45f3ff;
-    font-weight: 500;
+    font-weight: 800;
+    text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.1em;
 }
@@ -129,21 +130,25 @@ body {
     height: 44px;
 
 }
-.links{
+
+.links {
     display: flex;
     justify-content: space-between;
 }
-.links a{
+
+.links a {
     margin: 10px 0;
     font-size: 0.75em;
     color: #8f8f8f;
     text-decoration: none;
 }
+
 .links a:hover,
-.linksa:nth-child(2){
+.linksa:nth-child(2) {
     color: #45f3ff;
 }
-input [type="submit"]{
+
+input[type="submit"] {
     border: none;
     outline: none;
     background: #45f3ff;
@@ -151,4 +156,6 @@ input [type="submit"]{
     width: 100px;
     margin-top: 10px;
     border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
 }
