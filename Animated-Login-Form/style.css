@@ -137,4 +137,18 @@ body {
     margin: 10px 0;
     font-size: 0.75em;
     color: #8f8f8f;
+    text-decoration: none;
+}
+.links a:hover,
+.linksa:nth-child(2){
+    color: #45f3ff;
+}
+input [type="submit"]{
+    border: none;
+    outline: none;
+    background: #45f3ff;
+    padding: 11px 25px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 4px;
 }
