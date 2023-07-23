@@ -10,3 +10,12 @@
   height: 150px;
   width: clamp(220px, 55%, 300px);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.top,
+.bottom {
+  height: 100vh;
+}
