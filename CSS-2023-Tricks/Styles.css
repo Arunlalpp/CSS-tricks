@@ -49,12 +49,12 @@ html {
   background-color: blue;
 }
 
-.container {
+/* .container {
   position: relative;
   background-color: lightblue;
   width: 200px;
   height: 200px;
-}
+} */
 
 .container .box {
   position: absolute;
@@ -64,4 +64,30 @@ html {
   right: 20px;
   bottom: 20px; */
   inset: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container .items {
+  width: 40px;
+  height: 40px;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .items:nth-child(1) {
+  order: 1;
+}
+.container .items:nth-child(2) {
+  order: 3;
+}
+.container .items:nth-child(3) {
+  order: 2;
+}
+.container .items:nth-child(4) {
+  order: 4;
 }
