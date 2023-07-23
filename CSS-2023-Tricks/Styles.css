@@ -128,3 +128,13 @@ p {
   -webkit-line-clamp: 3;
   overflow: hidden;
 }
+/* .container h2,
+.container p,
+.container button {
+  color: aqua;
+} */
+/* We can write it as  */
+
+.container :is(h2, p, button) {
+  color: brown;
+}
