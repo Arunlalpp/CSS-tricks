@@ -109,3 +109,14 @@ p {
 
   /* For the same as we can write the margin */
 }
+
+.box {
+  /* width: 70%;
+  min-width: 100px; */
+
+  /* We can write it as */
+  /* width: max(70%, 100px); */
+  width: min(70%, 100px);
+  height: 100px;
+  background-color: lightcoral;
+}
