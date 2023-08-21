@@ -35,6 +35,16 @@
   position: absolute;
   height: 100%;
   width: 1px;
-  background-color: blue;
+  background-color: darkblue;
   left: 50%;
+}
+
+.line:nth-child(1) {
+  transform: rotate(15deg);
+}
+.line:nth-child(2) {
+  transform: rotate(30deg);
+}
+.line:nth-child(3) {
+  transform: rotate(45deg);
 }
