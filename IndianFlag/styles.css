@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top,
+.middle,
+.bottom {
+  height: 60px;
+  width: 360px;
+}
+.top {
+  background-color: #ff9933;
+}
+
+.middle {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.bottom {
+  background-color: green;
+}
+
+.wheel {
+  border-radius: 50%;
+  outline: 1px solid darkblue;
+  height: 60px;
+  width: 60px;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: blue;
+  left: 50%;
+}
