@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Animated Blob | CSS && SVG</title>
+  </head>
+  <body>
+    <section>
+      <div class="blob">
+        <svg
+          viewBox="0 0 500 500"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="100%"
+          id="blobSvg"
+        >
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color: rgb(255, 95, 109)"></stop>
+              <stop offset="100%" style="stop-color: rgb(255, 195, 113)"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#gradient)">
+            <animate
+              attributeName="d"
+              dur="10000ms"
+              repeatCount="indefinite"
+              values="M448.5,330.5Q411,411,330.5,452Q250,493,182.5,439Q115,385,94.5,317.5Q74,250,78.5,166.5Q83,83,166.5,77.5Q250,72,326.5,84.5Q403,97,444.5,173.5Q486,250,448.5,330.5Z;
+
+              M452,336.5Q423,423,336.5,430.5Q250,438,187.5,406.5Q125,375,79,312.5Q33,250,77.5,186Q122,122,186,87.5Q250,53,336,65.5Q422,78,451.5,164Q481,250,452,336.5Z;
+
+              M413.5,304.5Q359,359,304.5,386Q250,413,192,389.5Q134,366,92,308Q50,250,69,169Q88,88,169,73Q250,58,322,82Q394,106,431,178Q468,250,413.5,304.5Z;
+              
+              M444.5,336.5Q423,423,336.5,461Q250,499,192.5,432Q135,365,83.5,307.5Q32,250,83.5,192.5Q135,135,192.5,105Q250,75,321,91.5Q392,108,429,179Q466,250,444.5,336.5Z;
+              
+              M415.5,316.5Q383,383,316.5,402Q250,421,168,417.5Q86,414,64,332Q42,250,74.5,178.5Q107,107,178.5,75Q250,43,320.5,76Q391,109,419.5,179.5Q448,250,415.5,316.5Z;
+
+              M448.5,330.5Q411,411,330.5,452Q250,493,182.5,439Q115,385,94.5,317.5Q74,250,78.5,166.5Q83,83,166.5,77.5Q250,72,326.5,84.5Q403,97,444.5,173.5Q486,250,448.5,330.5Z"
+            >
+              <!-- Add first and last values same for loop animation  -->
+            </animate>
+          </path>
+        </svg>
+      </div>
+    </section>
+  </body>
+</html>
